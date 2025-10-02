@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BC Disability Benefits Guide</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="container">
+    <div class="hero">
+      <h1 class="title is-1 has-text-white has-text-centered"><a href="https://en.wikipedia.org/wiki/I_Am_Rich" target="_blank" style="color: white; text-decoration: none;">I am rich</a></h1>
+      <p class="has-text-centered has-text-white">I deserv it<br>I am good,<br>healthy & successful</p>
+    </div>
+
+    <div class="box has-text-centered">
+      <p class="money" id="moneyAmount" onclick="celebrateMoney()">$2,985/month</p>
+      <p class="subtitle is-5">Your Maximum Potential Income</p>
+      <p>$35,826/year + up to $40K one-time DTC payment</p>
+      <p class="mt-3"><strong>Current:</strong> $1,080/month → <strong>Potential:</strong> $2,985/month</p>
+    </div>
+
+    <hr>
+
+    <h2 class="title is-3">How to Get There</h2>
+
+    <table class="table is-fullwidth">
+      <tbody>
+        <tr>
+          <td>Current Income Assistance</td>
+          <td class="has-text-right"><strong>$1,080.00</strong></td>
+        </tr>
+        <tr class="highlight">
+          <td>Upgrade to PWD Designation</td>
+          <td class="has-text-right"><strong>+$403.50</strong></td>
+        </tr>
+        <tr>
+          <td>Canada Disability Benefit (NEW July 2025)</td>
+          <td class="has-text-right"><strong>+$200.00</strong></td>
+        </tr>
+        <tr>
+          <td>Transportation Supplement</td>
+          <td class="has-text-right"><strong>+$52.00</strong></td>
+        </tr>
+        <tr>
+          <td>Part-time work (optional, up to $15K/year)</td>
+          <td class="has-text-right"><strong>+$1,250.00</strong></td>
+        </tr>
+        <tr class="highlight">
+          <td><strong>TOTAL MONTHLY</strong></td>
+          <td class="has-text-right"><strong>$2,985.50</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <h2 class="title is-3">Action Steps</h2>
+
+    <div class="box" id="step0">
+      <h3 class="subtitle is-4"><input type="checkbox" class="action-checkbox" onchange="toggleStep(0)"> 0. Get PWD Designation (DO THIS FIRST!)</h3>
+      <p><strong>Why:</strong> +$403.50/month ($4,842/year more!)</p>
+      <p><strong>You qualify:</strong> Autism ✓ Depression ✓</p>
+      <p><strong>How:</strong></p>
+      <div class="content">
+        <ol>
+          <li>Call: 1-866-866-0800</li>
+          <li>Request Form HR2883</li>
+          <li>Fill out your section</li>
+          <li>Doctor fills medical section</li>
+          <li>Submit & wait 2-6 months</li>
+        </ol>
+      </div>
+      <p><strong>Need help:</strong> <a href="https://disabilityalliancebc.org" target="_blank">Disability Alliance BC</a></p>
+    </div>
+
+    <div class="box" id="step1">
+      <h3 class="subtitle is-4"><input type="checkbox" class="action-checkbox" onchange="toggleStep(1)"> 1. Canada Disability Benefit</h3>
+      <p><strong>When:</strong> Apply June 20, 2025 (first payment in July 2025)</p>
+      <p><strong>Get:</strong> +$200/month</p>
+      <p><strong>Link:</strong> <a href="https://www.canada.ca/en/services/benefits/disability/canada-disability-benefit.html" target="_blank">canada.ca/disability-benefit</a></p>
+      <p><strong>Note:</strong> You must have DTC approval first (see Step 2 below)</p>
+    </div>
+
+    <div class="box" id="step2">
+      <h3 class="subtitle is-4"><input type="checkbox" class="action-checkbox" onchange="toggleStep(2)"> 2. Disability Tax Credit (DTC)</h3>
+      <p><strong>Why:</strong> Required for CDB + $20K-$40K lump sum retroactive payment</p>
+      <p><strong>Timeline:</strong> Apply ASAP, wait 3-6 months for approval</p>
+      <p><strong>How:</strong></p>
+      <div class="content">
+        <ol>
+          <li>Get Form T2201: <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t2201.html" target="_blank">canada.ca/forms/t2201</a></li>
+          <li>Doctor fills it out</li>
+          <li>Submit to CRA</li>
+          <li>Wait 3-6 months for approval & retroactive payment</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="box" id="step3">
+      <h3 class="subtitle is-4"><input type="checkbox" class="action-checkbox" onchange="toggleStep(3)"> 3. Transportation Supplement</h3>
+      <p><strong>Call:</strong> 1-866-866-0800</p>
+      <p><strong>Get:</strong> $52/month OR bus pass</p>
+    </div>
+
+    <hr>
+
+    <h2 class="title is-3">Key Rules</h2>
+
+    <div class="content">
+      <ul>
+        <li>Work up to <strong>$15,000/year</strong> without losing PWD</li>
+        <li>Save up to <strong>$100,000</strong> without losing PWD</li>
+        <li>CDB $200/month won't reduce your PWD</li>
+        <li>Must have DTC to qualify for CDB</li>
+        <li>Always report income/asset changes to Ministry</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <h2 class="title is-3">Do You Qualify? Eligible Conditions</h2>
+
+    <div class="box">
+      <p><strong>You may qualify for PWD (Person with Disabilities) designation if you have a condition that significantly restricts your daily activities and is expected to last at least 2 years or is likely to recur.</strong></p>
+
+      <h3 class="subtitle is-5 mt-4">Common Qualifying Conditions:</h3>
+
+      <div class="content">
+        <h4><strong>Mental Health Conditions:</strong></h4>
+        <ul>
+          <li>Autism Spectrum Disorder (ASD)</li>
+          <li>Depression (Major Depressive Disorder)</li>
+          <li>Bipolar Disorder</li>
+          <li>Schizophrenia</li>
+          <li>Anxiety Disorders (GAD, Panic Disorder, PTSD, OCD)</li>
+          <li>Borderline Personality Disorder (BPD)</li>
+          <li>ADHD (severe cases affecting daily function)</li>
+        </ul>
+
+        <h4><strong>Physical Conditions:</strong></h4>
+        <ul>
+          <li>Chronic Pain (Fibromyalgia, Back Pain, etc.)</li>
+          <li>Multiple Sclerosis (MS)</li>
+          <li>Cerebral Palsy</li>
+          <li>Muscular Dystrophy</li>
+          <li>Spinal Cord Injuries</li>
+          <li>Amputation or Limb Disabilities</li>
+          <li>Severe Arthritis</li>
+          <li>Chronic Fatigue Syndrome (ME/CFS)</li>
+        </ul>
+
+        <h4><strong>Neurological Conditions:</strong></h4>
+        <ul>
+          <li>Epilepsy</li>
+          <li>Parkinson's Disease</li>
+          <li>Traumatic Brain Injury (TBI)</li>
+          <li>Stroke (with lasting effects)</li>
+          <li>Dementia or Cognitive Impairments</li>
+        </ul>
+
+        <h4><strong>Chronic Illnesses:</strong></h4>
+        <ul>
+          <li>Diabetes (Type 1 or severe Type 2)</li>
+          <li>Heart Disease</li>
+          <li>Kidney Disease</li>
+          <li>Liver Disease</li>
+          <li>Cancer (ongoing treatment or effects)</li>
+          <li>HIV/AIDS</li>
+          <li>Crohn's Disease or Ulcerative Colitis</li>
+          <li>Severe Asthma or COPD</li>
+        </ul>
+
+        <h4><strong>Sensory Disabilities:</strong></h4>
+        <ul>
+          <li>Blindness or Low Vision</li>
+          <li>Deafness or Hearing Loss</li>
+        </ul>
+
+        <h4><strong>Learning & Developmental Disabilities:</strong></h4>
+        <ul>
+          <li>Intellectual Disabilities</li>
+          <li>Fetal Alcohol Spectrum Disorder (FASD)</li>
+          <li>Learning Disabilities (severe cases)</li>
+        </ul>
+      </div>
+
+      <p class="mt-4"><strong>Note:</strong> This is not an exhaustive list. If you have any medical condition that significantly limits your daily activities, you may still qualify. Talk to your doctor about whether your condition meets the criteria.</p>
+
+      <p><strong>Key Requirement:</strong> Your condition must be expected to last at least 2 years OR continue indefinitely OR be likely to recur. Your doctor must confirm this on Form HR2883.</p>
+    </div>
+
+    <footer class="has-text-centered mt-5">
+      <p class="is-size-7"><em>Created: October 1, 2025</em></p>
+      <p class="is-size-7">Made with <span class="beating-heart" style="color: red;">&hearts;</span> in Vancouver, BC, Canada 🇨🇦</p>
+    </footer>
+
+  </div>
+
+  <script>
+    // Progress bar on scroll
+    window.addEventListener('scroll', () => {
+      const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      document.getElementById('progressBar').style.width = scrolled + '%';
+    });
+
+    // Confetti burst
+    function createConfetti(x, y) {
+      const colors = ['#ffd700', '#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7'];
+      for (let i = 0; i < 30; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.style.left = x + 'px';
+        confetti.style.top = y + 'px';
+        confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+        confetti.style.transform = `rotate(${Math.random() * 360}deg)`;
+        confetti.style.setProperty('--x', (Math.random() - 0.5) * 200 + 'px');
+        document.body.appendChild(confetti);
+        setTimeout(() => confetti.remove(), 3000);
+      }
+    }
+
+    // Money celebration on click
+    function celebrateMoney() {
+      const rect = document.getElementById('moneyAmount').getBoundingClientRect();
+      createConfetti(rect.left + rect.width / 2, rect.top + rect.height / 2);
+
+      // Floating money symbols
+      for (let i = 0; i < 5; i++) {
+        setTimeout(() => {
+          const money = document.createElement('div');
+          money.className = 'floating-money';
+          money.textContent = '💰';
+          money.style.left = (rect.left + Math.random() * rect.width) + 'px';
+          money.style.top = rect.top + 'px';
+          document.body.appendChild(money);
+          setTimeout(() => money.remove(), 4000);
+        }, i * 100);
+      }
+    }
+
+    // Checkbox persistence and completion tracking
+    const steps = ['step0', 'step1', 'step2', 'step3'];
+
+    // Load saved state
+    window.addEventListener('load', () => {
+      steps.forEach((stepId, index) => {
+        const saved = localStorage.getItem(stepId);
+        if (saved === 'true') {
+          const checkbox = document.querySelector(`#${stepId} .action-checkbox`);
+          checkbox.checked = true;
+          document.getElementById(stepId).classList.add('completed-step');
+        }
+      });
+      checkAllCompleted();
+    });
+
+    function toggleStep(stepNum) {
+      const stepId = 'step' + stepNum;
+      const checkbox = document.querySelector(`#${stepId} .action-checkbox`);
+      const stepBox = document.getElementById(stepId);
+
+      if (checkbox.checked) {
+        stepBox.classList.add('completed-step');
+        localStorage.setItem(stepId, 'true');
+
+        // Celebrate with confetti
+        const rect = stepBox.getBoundingClientRect();
+        createConfetti(rect.left + rect.width / 2, rect.top + 50);
+      } else {
+        stepBox.classList.remove('completed-step');
+        localStorage.setItem(stepId, 'false');
+      }
+
+      checkAllCompleted();
+    }
+
+    // Check if all steps completed
+    function checkAllCompleted() {
+      const allCompleted = steps.every(stepId => {
+        return localStorage.getItem(stepId) === 'true';
+      });
+
+      if (allCompleted) {
+        const celebBox = document.getElementById('celebrationBox');
+        celebBox.classList.add('celebration');
+        setTimeout(() => celebBox.classList.remove('celebration'), 500);
+      }
+    }
+
+    // Konami code easter egg
+    const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+    let konamiIndex = 0;
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === konamiCode[konamiIndex]) {
+        konamiIndex++;
+        if (konamiIndex === konamiCode.length) {
+          activateKonami();
+          konamiIndex = 0;
+        }
+      } else {
+        konamiIndex = 0;
+      }
+    });
+
+    function activateKonami() {
+      // Money rain!
+      let count = 0;
+      const interval = setInterval(() => {
+        const money = document.createElement('div');
+        money.className = 'floating-money';
+        money.textContent = ['💰', '💵', '💴', '💶', '💷'][Math.floor(Math.random() * 5)];
+        money.style.left = Math.random() * window.innerWidth + 'px';
+        money.style.top = '0px';
+        money.style.fontSize = (20 + Math.random() * 30) + 'px';
+        document.body.appendChild(money);
+        setTimeout(() => money.remove(), 4000);
+
+        count++;
+        if (count > 30) clearInterval(interval);
+      }, 200);
+    }
+
+    // Constant money float
+    setInterval(() => {
+      const money = document.createElement('div');
+      money.className = 'floating-money';
+      money.textContent = ['💵', '💰', '💴', '💶', '💷'][Math.floor(Math.random() * 5)];
+      money.style.left = Math.random() * window.innerWidth + 'px';
+      money.style.top = window.innerHeight + 'px';
+      money.style.animation = 'float-up 6s ease-out forwards';
+      money.style.fontSize = (20 + Math.random() * 15) + 'px';
+      document.body.appendChild(money);
+      setTimeout(() => money.remove(), 6000);
+    }, 2000);
+  </script>
+</body>
+</html>
