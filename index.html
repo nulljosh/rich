@@ -392,18 +392,6 @@
       const rect = document.getElementById('moneyAmount').getBoundingClientRect();
       createConfetti(rect.left + rect.width / 2, rect.top + rect.height / 2);
 
-      // Floating money symbols
-      for (let i = 0; i < 5; i++) {
-        setTimeout(() => {
-          const money = document.createElement('div');
-          money.className = 'floating-money';
-          money.textContent = '$';
-          money.style.left = (rect.left + Math.random() * rect.width) + 'px';
-          money.style.top = rect.top + 'px';
-          document.body.appendChild(money);
-          setTimeout(() => money.remove(), 4000);
-        }, i * 100);
-      }
     }
 
     // Checkbox persistence and completion tracking
@@ -489,18 +477,6 @@
       }, 200);
     }
 
-    // Constant money float
-    setInterval(() => {
-      const money = document.createElement('div');
-      money.className = 'floating-money';
-      money.textContent = '$';
-      money.style.left = Math.random() * window.innerWidth + 'px';
-      money.style.top = window.innerHeight + 'px';
-      money.style.animation = 'float-up 6s ease-out forwards';
-      money.style.fontSize = (20 + Math.random() * 15) + 'px';
-      document.body.appendChild(money);
-      setTimeout(() => money.remove(), 6000);
-    }, 2000);
   </script>
 </body>
 </html>
