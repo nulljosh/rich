@@ -100,6 +100,7 @@ li {
 footer {
   border-top: none !important;
   padding-top: 2rem !important;
+  text-align: center;
 }
 
 p {
