@@ -333,7 +333,7 @@
     </div>
 
     <footer class="has-text-centered mt-5">
-      <p class="is-size-7">Made with <span class="beating-heart" style="color: red;">&hearts;</span> in Vancouver, BC, Canada</p>
+      <p class="is-size-7">Made with care in Vancouver, BC, Canada</p>
     </footer>
 
   </div>
@@ -397,7 +397,7 @@
         setTimeout(() => {
           const money = document.createElement('div');
           money.className = 'floating-money';
-          money.textContent = '💰';
+          money.textContent = '$';
           money.style.left = (rect.left + Math.random() * rect.width) + 'px';
           money.style.top = rect.top + 'px';
           document.body.appendChild(money);
@@ -477,7 +477,7 @@
       const interval = setInterval(() => {
         const money = document.createElement('div');
         money.className = 'floating-money';
-        money.textContent = ['💰', '💵', '💴', '💶', '💷'][Math.floor(Math.random() * 5)];
+        money.textContent = '$';
         money.style.left = Math.random() * window.innerWidth + 'px';
         money.style.top = '0px';
         money.style.fontSize = (20 + Math.random() * 30) + 'px';
@@ -493,7 +493,7 @@
     setInterval(() => {
       const money = document.createElement('div');
       money.className = 'floating-money';
-      money.textContent = ['💵', '💰', '💴', '💶', '💷'][Math.floor(Math.random() * 5)];
+      money.textContent = '$';
       money.style.left = Math.random() * window.innerWidth + 'px';
       money.style.top = window.innerHeight + 'px';
       money.style.animation = 'float-up 6s ease-out forwards';
