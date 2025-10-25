@@ -30,13 +30,19 @@ body {
 
 .hero {
   background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
-  color: white;
+  color: white !important;
   padding: 3rem 2rem;
   margin-bottom: 2.5rem;
   border-radius: 8px;
 }
 
-.hero h1, .hero p {
+.hero h1,
+.hero p,
+.hero a,
+.hero span,
+.hero strong,
+.hero em,
+.hero * {
   color: white !important;
 }
 
