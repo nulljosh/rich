@@ -134,10 +134,21 @@ p {
 .container strong,
 .container b,
 .container em,
-.container a,
+.container a:not(.hero a),
 .container span,
 .container div {
   color: #000 !important;
+}
+
+.hero,
+.hero *,
+.hero h1,
+.hero p,
+.hero a,
+.hero span,
+.hero strong,
+.hero em {
+  color: white !important;
 }
 
 .content ul {
