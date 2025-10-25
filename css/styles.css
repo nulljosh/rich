@@ -15,6 +15,7 @@ body {
   border-radius: 12px;
   margin: 1rem auto 0 auto;
   box-sizing: border-box;
+  color: #000;
 }
 
 .title {
@@ -106,6 +107,20 @@ footer {
 p {
   margin-bottom: 1rem;
   line-height: 1.7;
+  color: #000;
+}
+
+.container p,
+.container li,
+.container td,
+.container th,
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+  color: #000;
 }
 
 .content ul {
