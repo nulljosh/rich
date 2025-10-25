@@ -30,19 +30,13 @@ body {
 
 .hero {
   background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
-  color: white !important;
+  color: white;
   padding: 3rem 2rem;
   margin-bottom: 2.5rem;
   border-radius: 8px;
 }
 
-.hero h1,
-.hero p,
-.hero a,
-.hero span,
-.hero strong,
-.hero em,
-.hero * {
+.hero h1, .hero p, .hero a, .hero span, .hero strong {
   color: white !important;
 }
 
@@ -93,6 +87,17 @@ th, td {
 .highlight {
   background: #e8e8e8;
   font-weight: 600;
+}
+
+.highlight td,
+.highlight strong {
+  color: #000 !important;
+}
+
+table td,
+table th,
+table strong {
+  color: #000 !important;
 }
 
 ul, ol {
