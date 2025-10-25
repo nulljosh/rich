@@ -119,8 +119,14 @@ p {
 .container h3,
 .container h4,
 .container h5,
-.container h6 {
-  color: #000;
+.container h6,
+.container strong,
+.container b,
+.container em,
+.container a,
+.container span,
+.container div {
+  color: #000 !important;
 }
 
 .content ul {
