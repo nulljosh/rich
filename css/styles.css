@@ -431,27 +431,21 @@ body.dark-mode #calculatorResults {
   color: #e0e0e0 !important;
 }
 
-/* Override inline colors for dark mode - keep clrs.cc vibrant! */
+/* Dark mode: simple dark bg, preserve vibrant colors */
 body.dark-mode .box[style*="background: #FFFFFF"],
 body.dark-mode .box[style*="background-color: #FFFFFF"],
-body.dark-mode div[style*="background: #FFFFFF"],
+body.dark-mode div[style*="background: #FFFFFF"] {
+  background: #1a1a1a !important;
+}
+
 body.dark-mode div[style*="background: white"] {
-  background: #001f3f !important; /* Navy background */
+  background: #1a1a1a !important;
 }
 
-/* Keep colorful borders in dark mode */
-body.dark-mode [style*="border: 2px solid #DDDDDD"],
-body.dark-mode [style*="border: 1px solid #DDDDDD"] {
-  border-color: #AAAAAA !important;
-}
-
-/* Labels stay gray */
-body.dark-mode [style*="color: #AAAAAA"],
-body.dark-mode [style*="color: #666"] {
+body.dark-mode [style*="color: #AAAAAA"] {
   color: #DDDDDD !important;
 }
 
-/* Text that was black becomes white */
 body.dark-mode [style*="color: #111111"] {
   color: #FFFFFF !important;
 }
