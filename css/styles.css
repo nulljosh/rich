@@ -431,34 +431,27 @@ body.dark-mode #calculatorResults {
   color: #e0e0e0 !important;
 }
 
-/* Override inline colors for dark mode with clrs.cc */
+/* Override inline colors for dark mode - keep clrs.cc vibrant! */
 body.dark-mode .box[style*="background: #FFFFFF"],
 body.dark-mode .box[style*="background-color: #FFFFFF"],
 body.dark-mode div[style*="background: #FFFFFF"],
 body.dark-mode div[style*="background: white"] {
-  background: #111111 !important;
+  background: #001f3f !important; /* Navy background */
 }
 
+/* Keep colorful borders in dark mode */
 body.dark-mode [style*="border: 2px solid #DDDDDD"],
-body.dark-mode [style*="border: 1px solid #DDDDDD"],
-body.dark-mode [style*="border: 2px solid #2ECC40"],
-body.dark-mode [style*="border: 2px solid #FFDC00"],
-body.dark-mode [style*="border: 2px solid #0074D9"],
-body.dark-mode [style*="border: 2px solid #FF4136"],
-body.dark-mode [style*="border: 2px solid #39CCCC"] {
+body.dark-mode [style*="border: 1px solid #DDDDDD"] {
   border-color: #AAAAAA !important;
 }
 
-body.dark-mode [style*="border-left: 4px solid"],
-body.dark-mode [style*="border-left: 6px solid"] {
-  /* Keep accent border colors */
-}
-
+/* Labels stay gray */
 body.dark-mode [style*="color: #AAAAAA"],
 body.dark-mode [style*="color: #666"] {
-  color: #AAAAAA !important;
+  color: #DDDDDD !important;
 }
 
+/* Text that was black becomes white */
 body.dark-mode [style*="color: #111111"] {
   color: #FFFFFF !important;
 }
