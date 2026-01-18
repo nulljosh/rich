@@ -425,3 +425,22 @@ body.dark-mode select option {
   background: #353535;
   color: #e0e0e0;
 }
+
+/* Dark mode: fix white backgrounds and text visibility */
+body.dark-mode div[style*="background: #FFFFFF"],
+body.dark-mode div[style*="background: white"] {
+  background: #2d2d2d !important;
+}
+
+body.dark-mode p[style*="color: #AAAAAA"],
+body.dark-mode p[style*="color: #666"] {
+  color: #DDDDDD !important;
+}
+
+/* Keep vibrant accent colors visible in dark mode */
+body.dark-mode p[style*="color: #FF851B"],
+body.dark-mode p[style*="color: #2ECC40"],
+body.dark-mode strong[style*="color: #FF851B"],
+body.dark-mode strong[style*="color: #2ECC40"] {
+  /* Keep the bright colors */
+}
