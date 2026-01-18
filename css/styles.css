@@ -425,27 +425,3 @@ body.dark-mode select option {
   background: #353535;
   color: #e0e0e0;
 }
-
-body.dark-mode #calculatorResults {
-  background: #2d2d2d !important;
-  color: #e0e0e0 !important;
-}
-
-/* Dark mode: simple dark bg, preserve vibrant colors */
-body.dark-mode .box[style*="background: #FFFFFF"],
-body.dark-mode .box[style*="background-color: #FFFFFF"],
-body.dark-mode div[style*="background: #FFFFFF"] {
-  background: #1a1a1a !important;
-}
-
-body.dark-mode div[style*="background: white"] {
-  background: #1a1a1a !important;
-}
-
-body.dark-mode [style*="color: #AAAAAA"] {
-  color: #DDDDDD !important;
-}
-
-body.dark-mode [style*="color: #111111"] {
-  color: #FFFFFF !important;
-}
