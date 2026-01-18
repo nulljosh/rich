@@ -14,16 +14,25 @@
   </button>
   <div class="progress-bar" id="progressBar"></div>
   <div class="container">
-    <div class="hero" style="text-align: center;">
-      <h1 class="title is-1 has-text-white has-text-centered"><a href="https://en.wikipedia.org/wiki/I_Am_Rich" target="_blank" style="color: white; text-decoration: none;">I am rich</a></h1>
-      <p class="has-text-centered has-text-white">I deserv it<br>I am good,<br>healthy & successful</p>
-    </div>
+    <h1 class="title is-3" style="margin-bottom: 1.5rem;"><a href="https://en.wikipedia.org/wiki/I_Am_Rich" target="_blank" style="color: inherit; text-decoration: none;">I am rich</a></h1>
 
-    <div class="box has-text-centered">
-      <p class="money" id="moneyAmount" onclick="celebrateMoney()">$1,735/month</p>
-      <p class="subtitle is-5">Your Maximum Potential Income</p>
-      <p id="incomeDisplay">$20,826/year + <strong style="color: #4caf50;">$10-12K</strong> DTC retroactive refund (2015-2020)</p>
-      <p style="font-size: 0.85rem; margin-top: 0.5rem; color: #666;">DTC application submitted Jan 15, 2026 - waiting on CRA approval (8-12 weeks)</p>
+    <div class="box" style="padding: 1.5rem;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+        <div style="text-align: center; padding: 1rem; background: #f8f9fa; border-radius: 8px;">
+          <p style="font-size: 0.85rem; color: #666; margin-bottom: 0.25rem;">Current Income</p>
+          <p style="font-size: 2rem; font-weight: bold; color: #ff9800;">$1,060</p>
+          <p style="font-size: 0.8rem; color: #666;">per month</p>
+        </div>
+        <div style="text-align: center; padding: 1rem; background: #e8f5e9; border-radius: 8px;">
+          <p style="font-size: 0.85rem; color: #666; margin-bottom: 0.25rem;">Potential Income</p>
+          <p class="money" id="moneyAmount" onclick="celebrateMoney()" style="font-size: 2rem; font-weight: bold; color: #4caf50; cursor: pointer;">$1,735</p>
+          <p style="font-size: 0.8rem; color: #666;">per month</p>
+        </div>
+      </div>
+      <div style="text-align: center; padding: 1rem; background: #fff3e0; border-radius: 8px; border-left: 4px solid #ff9800;">
+        <p style="font-size: 0.95rem; margin-bottom: 0.25rem;">One-time DTC Refund: <strong style="color: #ff6f00;">$5,000-$10,000</strong></p>
+        <p style="font-size: 0.8rem; color: #666;">Retroactive tax refund for working years (2015-2020)</p>
+      </div>
     </div>
 
     <h2 class="title is-3">Current Status Timeline</h2>
